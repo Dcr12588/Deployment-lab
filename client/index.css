@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+  width: 100%;
+  }
+
+  body{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background-color: lightgrey;
+  }
+ .image img{
+    width: 100%;
+    display:flex;
+ }
+
+ .title{
+    width: 100%;
+    position: relative;
+    margin-top: -65%;
+ }
+
+ .title h1{
+    text-align: center;
+    text-shadow: 8px 8px 8px;
+    font-size: 10vh;
+    font-family: 'Courier New', Courier, monospace;
+ }
